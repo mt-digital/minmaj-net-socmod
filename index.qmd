@@ -1,0 +1,46 @@
+# Abstract
+
+Provide a concise summary of your research here.
+
+# Introduction
+
+Introduce the background and significance of your study.
+
+# Methods
+
+Describe your research methods in detail.
+
+# Results
+
+Present your findings clearly.
+
+## Example Figure
+
+~~~{r fig-example}
+#| label: fig:sample-figure
+#| fig-cap: "Sample figure illustrating key results."
+#| echo: false
+#| eval: false
+plot(1:10, 1:10, main = "Sample Figure")
+~~~
+
+As shown in Figure @fig:sample-figure, the data exhibits a linear trend.
+
+## Example Table
+
+~~~{r tbl-example}
+#| label: tbl:sample-table
+#| tbl-cap: "Sample table summarizing data."
+#| echo: false
+#| eval: false
+knitr::kable(head(mtcars), caption = "Sample Table")
+~~~
+
+Table @tbl:sample-table summarizes the main variables analyzed.
+
+# Discussion
+
+Interpret the results and discuss implications.
+
+# References
+

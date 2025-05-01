@@ -1,0 +1,30 @@
+project:
+  type: manuscript
+
+manuscript:
+  article: index.qmd
+
+metadata:
+  title: ""
+  author:
+    - name: "Matthew A. Turner"
+      affiliation: "Department of Environmental Social Science, Stanford Doerr School of Sustainability, Stanford University, Stanford, CA, USA"
+    - name: "Adam Z. Reynolds"
+      affiliation: "Department of Public Health, University of New Mexico, Albuquerque, NM, USA"
+    - name: "James Holland Jones"
+      affiliation: "Department of Environmental Social Science, Stanford Doerr School of Sustainability, Stanford University, Stanford, CA, USA"
+  date: "2025-05-01"
+  corresponding: "maturner@stanford.edu"
+
+
+format:
+
+  pdf:
+    template: pinp 
+    keep-tex: true
+    bibliography: /Users/mt/workspace/Writing/library.bib
+    execute:
+      echo: false
+      warning: false
+      message: false
+      eval: false
